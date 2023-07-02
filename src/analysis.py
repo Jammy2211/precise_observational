@@ -148,6 +148,16 @@ class Analysis(af.Analysis):
         plot_array(array=normalized_residual_map, title="Normalized Residual Map",  name="normalized_residual_map")
         plot_array(array=chi_squared_map, title="Chi-Squared Map", name="chi_squared_map")
 
+        lens = instance.galaxies[0]
+        lens_image = lens.image_from_grid(grid=self.grid)
+
+        source = instance.galaxies[1]
+        traced_grid = self.traced_grid_from(instance=instance)
+        source_image = source.image_from_grid(grid=traced_grid)
+
+        plot_array(array=lens_image, title="Lens Image", name="lens_image")
+        plot_array(array=source_image, title="Source Image", name="source_image")
+
     def traced_grid_from(self, instance) -> List[np.ndarray]:
         """
         This function performs ray-tracing calculations describing how light is gravitationally lensed
