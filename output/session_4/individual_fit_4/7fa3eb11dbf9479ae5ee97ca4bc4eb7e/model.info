@@ -1,0 +1,14 @@
+Total Free Parameters = 6
+
+model                                                                           Collection (N=6)
+    gaussian_0                                                                  Gaussian (N=3)
+    gaussian_1                                                                  Gaussian (N=3)
+
+gaussian_0
+    centre                                                                      UniformPrior [165], lower_limit = 0.0, upper_limit = 50.0
+    normalization                                                               LogUniformPrior [163], lower_limit = 1e-06, upper_limit = 1000000.0
+    sigma                                                                       UniformPrior [164], lower_limit = 0.0, upper_limit = 25.0
+gaussian_1
+    centre                                                                      UniformPrior [169], lower_limit = 50.0, upper_limit = 100.0
+    normalization                                                               LogUniformPrior [167], lower_limit = 1e-06, upper_limit = 1000000.0
+    sigma                                                                       UniformPrior [168], lower_limit = 0.0, upper_limit = 25.0

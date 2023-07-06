@@ -1,0 +1,6 @@
+gaussian_0_normalization                                              norm_g
+gaussian_0_sigma                                                      \sigma_g
+gaussian_0_centre                                                     x_g
+gaussian_1_normalization                                              norm_g
+gaussian_1_sigma                                                      \sigma_g
+gaussian_1_centre                                                     x_g

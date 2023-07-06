@@ -1,0 +1,45 @@
+Bayesian Evidence                                                               -61.65762122
+Maximum Log Likelihood                                                          -53.23565763
+Maximum Log Posterior                                                           1100383.55694866
+
+model                                                                           Collection (N=6)
+    gaussian_0                                                                  Gaussian (N=3)
+    gaussian_1                                                                  Gaussian (N=3)
+
+Maximum Log Likelihood Model:
+
+gaussian_0
+    normalization                                                               0.035
+    sigma                                                                       1.528
+    centre                                                                      31.851
+gaussian_1
+    normalization                                                               2.614
+    sigma                                                                       23.815
+    centre                                                                      53.074
+
+
+Summary (3.0 sigma limits):
+
+gaussian_0
+    normalization                                                               0.04 (0.00, 395.78)
+    sigma                                                                       17.17 (0.06, 24.95)
+    centre                                                                      31.19 (0.28, 49.94)
+gaussian_1
+    normalization                                                               2.23 (0.00, 3.70)
+    sigma                                                                       20.65 (0.95, 24.97)
+    centre                                                                      55.63 (50.01, 97.96)
+
+
+Summary (1.0 sigma limits):
+
+gaussian_0
+    normalization                                                               0.04 (0.00, 2.31)
+    sigma                                                                       17.17 (7.36, 23.24)
+    centre                                                                      31.19 (12.30, 46.60)
+gaussian_1
+    normalization                                                               2.23 (0.00, 2.72)
+    sigma                                                                       20.65 (14.61, 23.78)
+    centre                                                                      55.63 (51.64, 71.70)
+
+instances
+
