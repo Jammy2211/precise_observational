@@ -1,0 +1,66 @@
+PriorFactors
+
+PriorFactor204 (AnalysisFactor42.normalization)                                           GaussianPrior [287], mean = 3.0, sigma = 5.0
+PriorFactor205 (AnalysisFactor42.centre, HierarchicalFactor0)                             GaussianPrior [286], mean = 50.0, sigma = 20.0
+PriorFactor206 (AnalysisFactor41.sigma)                                                   GaussianPrior [282], mean = 10.0, sigma = 10.0
+PriorFactor207 (AnalysisFactor41.normalization)                                           GaussianPrior [281], mean = 3.0, sigma = 5.0
+PriorFactor208 (AnalysisFactor41.centre, HierarchicalFactor0)                             GaussianPrior [280], mean = 50.0, sigma = 20.0
+PriorFactor209 (AnalysisFactor40.sigma)                                                   GaussianPrior [276], mean = 10.0, sigma = 10.0
+PriorFactor210 (AnalysisFactor40.normalization)                                           GaussianPrior [275], mean = 3.0, sigma = 5.0
+PriorFactor211 (AnalysisFactor40.centre, HierarchicalFactor0)                             GaussianPrior [274], mean = 50.0, sigma = 20.0
+PriorFactor212 (HierarchicalFactor0)                                                      GaussianPrior [302], mean = 10.0, sigma = 5.0
+PriorFactor213 (HierarchicalFactor0)                                                      GaussianPrior [301], mean = 50.0, sigma = 10
+PriorFactor214 (AnalysisFactor44.sigma)                                                   GaussianPrior [300], mean = 10.0, sigma = 10.0
+PriorFactor215 (AnalysisFactor44.normalization)                                           GaussianPrior [299], mean = 3.0, sigma = 5.0
+PriorFactor216 (AnalysisFactor44.centre, HierarchicalFactor0)                             GaussianPrior [298], mean = 50.0, sigma = 20.0
+PriorFactor217 (AnalysisFactor43.sigma)                                                   GaussianPrior [294], mean = 10.0, sigma = 10.0
+PriorFactor218 (AnalysisFactor43.normalization)                                           GaussianPrior [293], mean = 3.0, sigma = 5.0
+PriorFactor219 (AnalysisFactor43.centre, HierarchicalFactor0)                             GaussianPrior [292], mean = 50.0, sigma = 20.0
+PriorFactor220 (AnalysisFactor42.sigma)                                                   GaussianPrior [288], mean = 10.0, sigma = 10.0
+
+AnalysisFactors
+
+AnalysisFactor40
+
+centre (HierarchicalFactor0, PriorFactor211)                                              GaussianPrior [274], mean = 50.0, sigma = 20.0
+normalization (PriorFactor210)                                                            GaussianPrior [275], mean = 3.0, sigma = 5.0
+sigma (PriorFactor209)                                                                    GaussianPrior [276], mean = 10.0, sigma = 10.0
+
+AnalysisFactor41
+
+centre (HierarchicalFactor0, PriorFactor208)                                              GaussianPrior [280], mean = 50.0, sigma = 20.0
+normalization (PriorFactor207)                                                            GaussianPrior [281], mean = 3.0, sigma = 5.0
+sigma (PriorFactor206)                                                                    GaussianPrior [282], mean = 10.0, sigma = 10.0
+
+AnalysisFactor42
+
+centre (HierarchicalFactor0, PriorFactor205)                                              GaussianPrior [286], mean = 50.0, sigma = 20.0
+normalization (PriorFactor204)                                                            GaussianPrior [287], mean = 3.0, sigma = 5.0
+sigma (PriorFactor220)                                                                    GaussianPrior [288], mean = 10.0, sigma = 10.0
+
+AnalysisFactor43
+
+centre (HierarchicalFactor0, PriorFactor219)                                              GaussianPrior [292], mean = 50.0, sigma = 20.0
+normalization (PriorFactor218)                                                            GaussianPrior [293], mean = 3.0, sigma = 5.0
+sigma (PriorFactor217)                                                                    GaussianPrior [294], mean = 10.0, sigma = 10.0
+
+AnalysisFactor44
+
+centre (HierarchicalFactor0, PriorFactor216)                                              GaussianPrior [298], mean = 50.0, sigma = 20.0
+normalization (PriorFactor215)                                                            GaussianPrior [299], mean = 3.0, sigma = 5.0
+sigma (PriorFactor214)                                                                    GaussianPrior [300], mean = 10.0, sigma = 10.0
+
+HierarchicalFactors
+
+HierarchicalFactor0
+
+mean (HierarchicalFactor0, PriorFactor213)                                                GaussianPrior [301], mean = 50.0, sigma = 10
+sigma (HierarchicalFactor0, PriorFactor212)                                               GaussianPrior [302], mean = 10.0, sigma = 5.0
+
+Drawn Variables
+
+AnalysisFactor40.centre, PriorFactor211                                                   GaussianPrior [274], mean = 50.0, sigma = 20.0
+AnalysisFactor41.centre, PriorFactor208                                                   GaussianPrior [280], mean = 50.0, sigma = 20.0
+AnalysisFactor42.centre, PriorFactor205                                                   GaussianPrior [286], mean = 50.0, sigma = 20.0
+AnalysisFactor43.centre, PriorFactor219                                                   GaussianPrior [292], mean = 50.0, sigma = 20.0
+AnalysisFactor44.centre, PriorFactor216                                                   GaussianPrior [298], mean = 50.0, sigma = 20.0
