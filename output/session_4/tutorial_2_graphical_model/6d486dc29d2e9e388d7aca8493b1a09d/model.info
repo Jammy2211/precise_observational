@@ -1,0 +1,45 @@
+PriorFactors
+
+PriorFactor55 (AnalysisFactor10.centre, AnalysisFactor11.centre, AnalysisFactor12.centre, AnalysisFactor13.centre, AnalysisFactor14.centre) UniformPrior [62], lower_limit = 0.0, upper_limit = 100.0
+PriorFactor56 (AnalysisFactor14.sigma)                                                    UniformPrior [87], lower_limit = 0.0, upper_limit = 25.0
+PriorFactor57 (AnalysisFactor14.normalization)                                            LogUniformPrior [86], lower_limit = 1e-06, upper_limit = 1000000.0
+PriorFactor58 (AnalysisFactor13.sigma)                                                    UniformPrior [82], lower_limit = 0.0, upper_limit = 25.0
+PriorFactor59 (AnalysisFactor13.normalization)                                            LogUniformPrior [81], lower_limit = 1e-06, upper_limit = 1000000.0
+PriorFactor60 (AnalysisFactor12.sigma)                                                    UniformPrior [77], lower_limit = 0.0, upper_limit = 25.0
+PriorFactor61 (AnalysisFactor12.normalization)                                            LogUniformPrior [76], lower_limit = 1e-06, upper_limit = 1000000.0
+PriorFactor62 (AnalysisFactor11.sigma)                                                    UniformPrior [72], lower_limit = 0.0, upper_limit = 25.0
+PriorFactor63 (AnalysisFactor11.normalization)                                            LogUniformPrior [71], lower_limit = 1e-06, upper_limit = 1000000.0
+PriorFactor64 (AnalysisFactor10.sigma)                                                    UniformPrior [67], lower_limit = 0.0, upper_limit = 25.0
+PriorFactor65 (AnalysisFactor10.normalization)                                            LogUniformPrior [66], lower_limit = 1e-06, upper_limit = 1000000.0
+
+AnalysisFactors
+
+AnalysisFactor10
+
+centre (AnalysisFactor11.centre, AnalysisFactor12.centre, AnalysisFactor13.centre, AnalysisFactor14.centre, PriorFactor55) UniformPrior [62], lower_limit = 0.0, upper_limit = 100.0
+normalization (PriorFactor65)                                                             LogUniformPrior [66], lower_limit = 1e-06, upper_limit = 1000000.0
+sigma (PriorFactor64)                                                                     UniformPrior [67], lower_limit = 0.0, upper_limit = 25.0
+
+AnalysisFactor11
+
+centre (AnalysisFactor10.centre, AnalysisFactor12.centre, AnalysisFactor13.centre, AnalysisFactor14.centre, PriorFactor55) UniformPrior [62], lower_limit = 0.0, upper_limit = 100.0
+normalization (PriorFactor63)                                                             LogUniformPrior [71], lower_limit = 1e-06, upper_limit = 1000000.0
+sigma (PriorFactor62)                                                                     UniformPrior [72], lower_limit = 0.0, upper_limit = 25.0
+
+AnalysisFactor12
+
+centre (AnalysisFactor10.centre, AnalysisFactor11.centre, AnalysisFactor13.centre, AnalysisFactor14.centre, PriorFactor55) UniformPrior [62], lower_limit = 0.0, upper_limit = 100.0
+normalization (PriorFactor61)                                                             LogUniformPrior [76], lower_limit = 1e-06, upper_limit = 1000000.0
+sigma (PriorFactor60)                                                                     UniformPrior [77], lower_limit = 0.0, upper_limit = 25.0
+
+AnalysisFactor13
+
+centre (AnalysisFactor10.centre, AnalysisFactor11.centre, AnalysisFactor12.centre, AnalysisFactor14.centre, PriorFactor55) UniformPrior [62], lower_limit = 0.0, upper_limit = 100.0
+normalization (PriorFactor59)                                                             LogUniformPrior [81], lower_limit = 1e-06, upper_limit = 1000000.0
+sigma (PriorFactor58)                                                                     UniformPrior [82], lower_limit = 0.0, upper_limit = 25.0
+
+AnalysisFactor14
+
+centre (AnalysisFactor10.centre, AnalysisFactor11.centre, AnalysisFactor12.centre, AnalysisFactor13.centre, PriorFactor55) UniformPrior [62], lower_limit = 0.0, upper_limit = 100.0
+normalization (PriorFactor57)                                                             LogUniformPrior [86], lower_limit = 1e-06, upper_limit = 1000000.0
+sigma (PriorFactor56)                                                                     UniformPrior [87], lower_limit = 0.0, upper_limit = 25.0

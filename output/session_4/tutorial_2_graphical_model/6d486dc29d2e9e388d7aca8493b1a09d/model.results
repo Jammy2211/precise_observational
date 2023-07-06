@@ -1,0 +1,72 @@
+Bayesian Evidence                                                               -236.78667895
+Maximum Log Likelihood                                                          -216.83696563
+Maximum Log Posterior                                                           1962081.68532775
+
+model                                                                           GlobalPriorModel (N=11)
+    0                                                                           Gaussian (N=3)
+    1                                                                           Gaussian (N=3)
+    2                                                                           Gaussian (N=3)
+    3                                                                           Gaussian (N=3)
+    4                                                                           Gaussian (N=3)
+
+Maximum Log Likelihood Model:
+
+4
+    centre                                                                      50.182
+    normalization                                                               0.000
+    sigma                                                                       1.223
+0
+    normalization                                                               1.409
+    sigma                                                                       20.940
+1
+    normalization                                                               0.626
+    sigma                                                                       6.205
+2
+    normalization                                                               0.671
+    sigma                                                                       5.149
+3
+    normalization                                                               0.678
+    sigma                                                                       14.333
+
+
+Summary (3.0 sigma limits):
+
+4
+    centre                                                                      50.03 (44.52, 57.10)
+    normalization                                                               0.00 (0.00, 0.61)
+    sigma                                                                       11.92 (0.11, 24.96)
+0
+    normalization                                                               1.14 (0.08, 2.48)
+    sigma                                                                       18.75 (2.95, 24.99)
+1
+    normalization                                                               0.44 (0.00, 1.43)
+    sigma                                                                       7.15 (0.29, 24.83)
+2
+    normalization                                                               0.61 (0.00, 1.28)
+    sigma                                                                       4.99 (0.97, 18.63)
+3
+    normalization                                                               0.33 (0.00, 1.55)
+    sigma                                                                       11.86 (0.09, 24.79)
+
+
+Summary (1.0 sigma limits):
+
+4
+    centre                                                                      50.03 (48.57, 51.63)
+    normalization                                                               0.00 (0.00, 0.03)
+    sigma                                                                       11.92 (4.86, 19.02)
+0
+    normalization                                                               1.14 (0.78, 1.54)
+    sigma                                                                       18.75 (12.41, 22.90)
+1
+    normalization                                                               0.44 (0.14, 0.71)
+    sigma                                                                       7.15 (4.21, 13.00)
+2
+    normalization                                                               0.61 (0.41, 0.83)
+    sigma                                                                       4.99 (3.67, 6.87)
+3
+    normalization                                                               0.33 (0.00, 0.80)
+    sigma                                                                       11.86 (5.44, 18.88)
+
+instances
+
