@@ -1,0 +1,14 @@
+{
+    "bootstrap": null,
+    "bound": "multi",
+    "enlarge": null,
+    "facc": 0.2,
+    "first_update": null,
+    "fmove": 0.9,
+    "max_move": 100,
+    "nlive": 200,
+    "sample": "rwalk",
+    "slices": 5,
+    "update_interval": null,
+    "walks": 10
+}

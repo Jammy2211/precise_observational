@@ -1,0 +1,32 @@
+Bayesian Evidence                                                               -48.36911504
+Maximum Log Likelihood                                                          -44.30530043
+Maximum Log Posterior                                                           790888.01896619
+
+model                                                                           Collection (N=3)
+    gaussian                                                                    Gaussian (N=3)
+
+Maximum Log Likelihood Model:
+
+gaussian
+    centre                                                                      49.283
+    normalization                                                               0.733
+    sigma                                                                       12.880
+
+
+Summary (3.0 sigma limits):
+
+gaussian
+    centre                                                                      47.57 (0.09, 99.92)
+    normalization                                                               0.03 (0.00, 2.08)
+    sigma                                                                       14.63 (0.03, 24.94)
+
+
+Summary (1.0 sigma limits):
+
+gaussian
+    centre                                                                      47.57 (20.38, 72.72)
+    normalization                                                               0.03 (0.00, 0.61)
+    sigma                                                                       14.63 (5.95, 22.30)
+
+instances
+
